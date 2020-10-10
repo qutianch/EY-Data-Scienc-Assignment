@@ -1,5 +1,5 @@
 # Case Assignment with EY - Data & Analytics
-## Prepared by Tiancheng Qu
+## Prepared by [Tiancheng Qu](https://www.linkedin.com/in/tiancheng-qu/)
 
 
 The assignment is about predicting total sales for every product and store in the next month for a time series dataset consisting of daily sales data.
@@ -14,10 +14,10 @@ There is no set requirement on formatting, however, inclusion of the following s
 - Business implications and recommendations
 
 Dataset descriptions:
-- sales.csv: Daily historical data from January 2013 to October 2015.
-- items.csv: supplemental information about the items/products.
-- item_categories.csv: supplemental information about the items categories.
-- shops.csv: supplemental information about the shops.
+- [sales.csv](sales.csv): Daily historical data from January 2013 to October 2015.
+- [items.csv](items.csv): supplemental information about the items/products.
+- [item_categories.csv](item_categories.csv): supplemental information about the items categories.
+- [shops.csv](shops.csv): supplemental information about the shops.
 
 Submitted Answer File descriptions:
 - [EY_datascience_total_sales_prediction.ipynb](/EY_datascience_total_sales_prediction.ipynb) is the final notebook that process all shops with root category group.

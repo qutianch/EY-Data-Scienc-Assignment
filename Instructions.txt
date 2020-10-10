@@ -1,0 +1,16 @@
+The assignment is about predicting total sales for every product and store in the next month for a time series dataset consisting of daily sales data.
+
+Submission package should consist of the following:
+Script used to conduct the analysis
+Excluding cover page, a maximum of 5 slides for purpose of communicating results
+There is no set requirement on formatting, however, inclusion of the following sections is recommended.
+- Approach including tools used
+- Key data cleansing, transformation, variable engineering steps taken
+- Model evaluation metric and respective results
+- Business implications and recommendations
+ 
+Dataset descriptions:
+sales.csv: Daily historical data from January 2013 to October 2015.
+items.csv: supplemental information about the items/products.
+item_categories.csv: supplemental information about the items categories.
+shops.csv: supplemental information about the shops.

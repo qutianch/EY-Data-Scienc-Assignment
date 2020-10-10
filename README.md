@@ -19,6 +19,12 @@ Dataset descriptions:
 - item_categories.csv: supplemental information about the items categories.
 - shops.csv: supplemental information about the shops.
 
+Submitted Answer File descriptions:
+- [EY_datascience_total_sales_prediction.ipynb](/EY_datascience_total_sales_prediction.ipynb) is the final notebook that process all shops with root category group.
+- [EY_datascience_total_sales_prediction_single_store_category.ipynb](/EY_datascience_total_sales_prediction_single_store_category.ipynb) is the explorotory scrip that looks at one shop with one root category group to test ML methods and approaches.
+- [item_root_categories.csv](item_root_categories.csv) is the file manually created to reduce the various sub categories to their root category.
+- The [Results Directory](/Results) contains the [various findings](/Results/EY_datascience_findings.xlsx) and [presentation slide deck](/Results/Tiancheng,Qu-1.pdf).
+
 # Recommendations
 - Increase stock for Games root category(includes both PC and Console subcategories) items at all shops.
 - Increase stock for Tickets root category(includes both Ticket(digits) and Utilities-Tickets) items at all shops.
@@ -263,7 +269,78 @@ Mean Absolut Error was used as target, the lower the better
 - The models were able to make 488 predictions.
 - SARIMAX was up to 2x better at predicting the sales winning 331 times, vs. ARIMA at 157 times.
 - Based on the predicted store and root category pair, we are expecting to earn ₽15M more revenue compared with 2015 January.
+
+|cat|Change       |
+|---|-------------|
+|Game consoles|-2251480.5999999996|
+|Payment Cards|-1209633.950000002|
+|Movies|-797772.7000000015|
+|Programs|-661501.9700000271|
+|Accessories|-342591.09999999|
+|Musics|-74359.51000000002|
+|Cinema|-56540.680000010005|
+|batteries|-4600.0      |
+|Books|-216.5       |
+|Delivery|91188.00000001577|
+|Gifts|196276.05999999985|
+|Tickets|936734.0     |
+|Games|19186881.350000106|
+
 - 9 out of 50 shops are expected to make less revenue compared with 2015
+
+|name|Change       |
+|----|-------------|
+|Khimki TC "Mega"|-2470143.000000009|
+|Moscow TC "Perlovskiy"|-869618.000000011|
+|Krasnoyarsk TC "Vzletka Plaza"|-738423.0    |
+|Ufa TC "Central"|-549825.000000009|
+|Mytishchi TRK "XL-3"|-392946.57   |
+|St. Petersburg TK "Sennaya"|-207685.99999999|
+|Yakutsk Ordzhonikidze, 56|-154366.000000008|
+|RostovNaDonu TRC "Megacenter Horizon" Island|-61794.0     |
+|Tyumen SC "Goodwin"|-36343.99999999988|
+|Kursk TC "Pushkin"|38813.0      |
+|Moscow TK "Budenovsky" (pav.K7)|74499.00000000108|
+|Vologda SEC "Marmalade"|77214.000000001|
+|Tyumen SEC "Crystal"|78299.0      |
+|Tyumen SC "Green Coast"|89579.89000000004|
+|Kaluga SEC "XXI Century"|134383.0     |
+|Yaroslavl shopping center "Altair"|134493.00000000003|
+|Voronezh TRC "Maksimir"|181321.99999997|
+|Moscow shopping center "New Age" (Novokosino)|200297.000000011|
+|RostovNaDonu TC "Mega"|202770.99999999|
+|Zhukovsky Street. Chkalov 39m?|227945.22    |
+|Samara TC "Melody"|253011.00000000003|
+|Kolomna TC "Rio"|259996.56999999908|
+|RostovNaDonu TRC "Megacenter Horizon"|278879.99999999895|
+|Volzhsky mall "Volga Mall"|284852.99999999|
+|Omsk TC "Mega"|284969.999999988|
+|Novosibirsk TC "Mega"|288342.999999999|
+|Samara TC "Parkhaus"|316987.0     |
+|Yakutsk TC "Central"|319985.9999999991|
+|Surgut SEC "City Mall"|329877.99999998|
+|Ufa TC "Family" 2|350283.99999999|
+|Nizhny Novgorod SEC "RIO"|359659.0     |
+|Czechs SEC "Carnival"|360764.0     |
+|Adygea TC "Mega"|375675.00000000093|
+|Balashikha TRC "October-Kinomir"|376001.95999999804|
+|Shop Online Emergencies|481524.0000000289|
+|Krasnoyarsk SC "June"|553591.0     |
+|Moscow shopping center "MEGA Teply Stan" II of|593368.0000000208|
+|Moscow MTRTS "Afi Mall"|628490.0000000069|
+|Kazan shopping mall of "Parkhouse" II of|654545.00000002|
+|Digital storage 1C-line|695214.600000098|
+|Sergiyev Posad TC "7H"|707303.000000012|
+|Tomsk SEC "Emerald City"|804523.0     |
+|Moscow Shop C21|856910.00000001|
+|Nizhny Novgorod SEC "Fantasy"|901491.9499999979|
+|Voronezh (Plekhanovskaya, 13)|912479.0000000001|
+|Moscow shopping center "Semyonov"|922551.0000001208|
+|Moscow shopping mall "area" (Belyaevo)|976242.9999999751|
+|St. Petersburg TK "Nevsky Center"|1145421.999999924|
+|Moscow shopping center "MEGA Belaya Dacha II"|1264726.7799999497|
+|Moscow TRC "Atrium"|2516241.0000000405|
+
 - Khimki TC "Mega“ is predicted to lost the most amount of revenue (- ₽2.47M ). Revenue lost in every root categories. This could be the problem with the model or the store, further investigation required.
 - Moscow TRC "Atrium“ is predicted to generate the most amount of revenue ( +₽2.51M )
 - The predicted revenue gain leaders are: Games, Tickets, Gifts and Delivery

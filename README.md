@@ -59,7 +59,7 @@ shops_df_active = shops_df.loc[shops_df['active_flag'] !='X']
 
 2. Translated ‘Игры’ to ‘Games’ in ‘item_category_name’ 
 
-![translation](/Screenshots/translation.png) 
+![translation](/Screenshots/translation.PNG) 
 
 3. Upon inspected the ‘item_category_name’ column, ‘item_root_categories’ was created and the values were manually added to the file based on the similarity between each category name.
 

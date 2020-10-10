@@ -56,7 +56,7 @@ Dataset descriptions:
 7. Multiplied the ‘item_price’ with ‘item_cnt_day’ to create the column ‘revenue’ in the ‘sales_df_working’.
 8. Calculated and visualized each shop’s monthly revenue, using aggregation.
 9. Large spike of revenue for almost all shop during October 2013 was observed. Upon close inspection, some of the item_price were abnormally high even compare with its price history within the sales record. Is it likely due to human entry error. 
-[![N|Solid](/Screenshots/spike.png)]
+(/Screenshots/spike.png)
 10. Further research into the true possible item price online confirmed the assumption, a threshold of ₽6000 was determined and any item price that is higher will be divided by 100.
 11.The sales record dataframe with adjustments was visualized again to verify that the effect of data entry error has been reduced.
 12. Two types of times series model were selected (SARIMAX and ARIMA)

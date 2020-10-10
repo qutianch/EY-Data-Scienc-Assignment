@@ -1,4 +1,4 @@
-# Case Assignment with EY - Data & Analytics
+# Case Assignment with [EY - Data & Analytics](https://www.ey.com/en_ca/big-data-analytics)
 ## Prepared by [Tiancheng Qu](https://www.linkedin.com/in/tiancheng-qu/), [MMAI](https://smith.queensu.ca/grad_studies/mmai/), [Queen's University, Canada](https://www.queensu.ca/)
 
 

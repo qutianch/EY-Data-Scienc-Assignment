@@ -48,6 +48,12 @@ Dataset descriptions:
 
 # Key Actions
 1. Excluded any row that was marked as inactive.
+
+Drop inactive from item_categories:
+```python
+$ item_categories_df_active = item_categories_df.loc[item_categories_df['active_flag'] !='X']
+```
+
 2. Translated ‘Игры’ to ‘Games’ in ‘item_category_name’ 
 3. Upon inspected the ‘item_category_name’ column, ‘item_root_categories’ was created and the values were manually added to the file based on the similarity between each category name.
 4. Join the item dataframe with item category dataframe.

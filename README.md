@@ -1,5 +1,5 @@
 # Case Assignment with EY - Data & Analytics
-## Prepared by [Tiancheng Qu](https://www.linkedin.com/in/tiancheng-qu/)
+## Prepared by [Tiancheng Qu](https://www.linkedin.com/in/tiancheng-qu/), [MMAI](https://smith.queensu.ca/grad_studies/mmai/), [Queen's University, Canada](https://www.queensu.ca/)
 
 
 The assignment is about predicting total sales for every product and store in the next month for a time series dataset consisting of daily sales data.
